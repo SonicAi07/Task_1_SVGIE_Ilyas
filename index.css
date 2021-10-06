@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    border: 1px solid #d2d2d2;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: #fff;
+}
+.header__section_1{
+    display: flex;
+    align-items: center;
+}
+.header__section_1 img{
+    width: 200px;
+    margin-right: 10px;
+}
+.header__section_2 i{
+    font-size: 28px;
+    margin-right: 20px;
+}
+nav img{
+    width: 100%;
+    margin-top: 20px;
+}
+.main_section_1{
+    padding: 20px;
+    background: #d4d3d2;
+}
+.main_cars{
+    margin-top: 20px;
+    padding: 10px;
+}
+.car_price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.car_price img{
+    width: 400px;
+}
+.car_price h3{
+    margin-right: 20px;
+    font-size: 28px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background: #d4d3d2;
+}
